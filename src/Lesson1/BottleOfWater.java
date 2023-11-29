@@ -8,7 +8,7 @@ public class BottleOfWater extends Product {
         this.volume = volume;
     }
 
-    public int getVolume() {
+    public double getVolume() {
         return volume;
     }
 
@@ -21,7 +21,7 @@ public class BottleOfWater extends Product {
         return "BottleOfWater{" +
                 "name='" + super.getName() + '\'' +
                 ", cost=" + super.getCost() +
-                "volume=" + volume +
+                ", volume=" + volume +
                 '}';
     }
 }

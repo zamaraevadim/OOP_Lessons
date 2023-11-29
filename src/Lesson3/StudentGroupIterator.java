@@ -1,2 +1,4 @@
-package Lesson3;public class StudentGroupIterator {
+package Lesson3;
+
+public class StudentGroupIterator {
 }

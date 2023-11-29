@@ -1,2 +1,4 @@
-package Lesson3;public class StudentGroup {
+package Lesson3;
+
+public class StudentGroup {
 }

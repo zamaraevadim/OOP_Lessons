@@ -4,11 +4,18 @@ public abstract class Product {
     private  String name;
     private  double cost;
     private double volume;
+    private int temperature;
 
     public Product(String name, double cost) {
         this.name = name;
         this.cost = cost;
     }
+    public Product(String name, double volume, int temperature) {
+        this.name = name;
+        this.volume = volume;
+        this.temperature = temperature;
+    }
+
 
     public String getName() {
         return name;
@@ -32,6 +39,7 @@ public abstract class Product {
                 "name='" + name + '\'' +
                 ", cost=" + cost +
                 ", volume=" + volume +
+                ", temperature=" + temperature +
                 '}';
     }
 
@@ -42,4 +50,13 @@ public abstract class Product {
     public void setVolume(double volume) {
         this.volume = volume;
     }
+
+    public int getTemperature() {
+        return temperature;
+    }
+
+    public void setTemperature(int temperature) {
+        this.temperature = temperature;
+    }
 }
+
