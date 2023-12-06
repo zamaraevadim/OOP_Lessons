@@ -1,4 +1,4 @@
-package Lesson2;
+package Lesson2.homework;
 
 import java.util.List;
 

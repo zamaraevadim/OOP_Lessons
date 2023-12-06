@@ -1,6 +1,6 @@
-package Lesson2;
+package Lesson2.homework;
 
-public class Human extends Actor{
+public class Human extends Actor {
 
 
     public Human(String name) {

@@ -1,9 +1,9 @@
-package Lesson2;
+package Lesson2.homework;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Market implements QueueBehaviour, MarketBehaviour{
+public class Market implements QueueBehaviour, MarketBehaviour {
 
     List<Actor> queue = new ArrayList<>();
 
