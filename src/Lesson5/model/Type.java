@@ -1,2 +1,6 @@
-package Lesson5.model;public class Type {
+package Lesson5.model;
+
+public enum Type {
+    STUDENT,
+    TEACHER
 }
