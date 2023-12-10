@@ -1,4 +1,8 @@
-package Lesson4;
+package Lesson4.service;
+
+import Lesson4.model.Student;
+import Lesson4.model.StudentGroup;
+import Lesson4.model.UserComparator;
 
 import java.util.ArrayList;
 import java.util.Collections;

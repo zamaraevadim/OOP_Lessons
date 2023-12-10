@@ -1,4 +1,6 @@
-package Lesson4;
+package Lesson4.view;
+
+import Lesson4.model.User;
 
 import java.util.List;
 

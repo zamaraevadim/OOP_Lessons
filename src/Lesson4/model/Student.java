@@ -1,4 +1,4 @@
-package Lesson4;
+package Lesson4.model;
 
 public class Student extends User implements Comparable<Student> {
     private int studentId;

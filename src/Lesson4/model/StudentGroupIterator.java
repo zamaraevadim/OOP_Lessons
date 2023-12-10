@@ -1,7 +1,8 @@
-package Lesson4;
+package Lesson4.model;
 
 
 import Lesson4.model.Student;
+import Lesson4.model.StudentGroup;
 
 import java.util.Iterator;
 import java.util.List;
