@@ -1,2 +1,4 @@
-package Lesson6;public class Main {
+package Lesson6;
+
+public class Main {
 }

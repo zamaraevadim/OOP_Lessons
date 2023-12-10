@@ -26,4 +26,9 @@ public class StudentGroupService {
         Collections.sort(students1);
         return students1;
     }
+    public List<Student> getSortedStudentGroupFIO(){
+        List<Student> students1 = new ArrayList<>(students.getStudents());
+        students1.sort(new StudentGroupComparator());
+        return students1;
+    }
 }

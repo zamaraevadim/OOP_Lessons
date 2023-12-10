@@ -1,2 +1,8 @@
-package Lesson6.LSP;public class QuadRangle {
+package Lesson6.LSP;
+//L — Liskov Substitution (Принцип подстановки Барбары Лисков)
+//Если П является подтипом Т, то любые объекты типа Т, присутствующие в программе, могут заменяться объектами типа П без негативных последствий для функциональности программы.
+public abstract class QuadRangle {
+    public int area() {
+        return 0;
+    }
 }

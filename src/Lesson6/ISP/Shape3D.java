@@ -1,2 +1,5 @@
-package Lesson6.ISP;public interface Shape3D {
+package Lesson6.ISP;
+
+public interface Shape3D {
+    double volume();
 }
